@@ -1,0 +1,160 @@
+html {
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+  padding-right: none;
+}
+
+body {
+  font-family: "Tahoma";
+  font-weight: lighter;
+  max-width: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.center {
+  text-align: center;
+  margin: 0px auto;
+}
+
+.headline {
+  font-family: "Chelsea Market";
+  text-transform: uppercase;
+}
+
+.header {
+  background-color: olive;
+  padding-top: 20px;
+}
+
+.subheadline {
+  font-family: "Tahoma";
+  font-weight: lighter;
+  text-align: center;
+}
+
+.button {
+  padding: 15px;
+  font-family: "Tahoma";
+  font-style: italic;
+  border: transparent;
+  background-color: black;
+  color: white;
+  margin: 10px;
+}
+
+/*NAVBARS*/
+
+.horizontal {
+  width: 100%;
+  text-align: center;
+  background-color: #969496;
+  height: 50px;
+  line-height: 50px;
+}
+
+.horizontal a {
+  margin: 0px;
+  padding: 15px;
+  background-color: #969496;
+  color: white;
+  text-align: center;
+  float: center;
+}
+
+.horizontal .active {
+  background-color: black;
+}
+
+.horizontal :hover {
+  background-color: black;
+}
+
+.vertical-menu {
+  width: 200px;
+  margin: 0px 10px 10px 20px;
+  float: left;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.vertical-menu a.active {
+  background-color: black;
+  color: white;
+}
+
+.vertical-menu a:hover not(:empty) {
+  background-color: darkgrey;
+  color: white;
+}
+
+/*Beginning of blog articles*/
+
+.body {
+  float: left;
+}
+
+.articleleft {
+  float: left;
+  width: 15%;
+}
+
+/*ARCHIV*/
+.articleright {
+  float: right;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  height: 100px;
+  padding: 20px 20px 20px 20px;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+.instaone {
+  background-color: black;
+  color: white;
+  word-wrap: break-word;
+  text-align: left;
+  padding: 20px;
+  width: 780px;
+  height: 535px;
+  margin-left: 570px;
+  margin-top: 3px;
+}
+
+.img {
+  width: 280px;
+  display: inline-block;
+}
+
+.instatwo {
+  background-color: black;
+  color: white;
+  padding: 0px 20px 20px 20px;
+  height: 375px;
+  width: 780px;
+  float: left;
+  margin: 0 20px 20px 0px;
+}
+
+.articlethree {
+  background-color: black;
+  color: white;
+  height: 327px;
+  width: 660px;
+  float: right;
+  padding: 20px;
+  margin-left: 20px;
+}
